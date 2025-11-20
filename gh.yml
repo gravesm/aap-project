@@ -1,0 +1,4 @@
+- hosts: github
+  gather_facts: false
+  tasks:
+    - ansible.mcp.tools_info:
