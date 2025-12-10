@@ -1,0 +1,5 @@
+- hosts: localhost
+  gather_facts: false
+  tasks:
+    - local_action: command whoami
+    - local_action: command ls -ld /opt/mcp/.uv-tools/awslabs-ccapi-mcp-server/lib/python3.10/site-packages/awslabs/ccapi_mcp_server/.schemas/
