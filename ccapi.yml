@@ -1,5 +1,5 @@
-- hosts: github
+- hosts: aws
   gather_facts: false
   tasks:
     - ansible.mcp.run_tool:
-        name: get_me
+        name: get_aws_account_info
